@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Roost — Coffee & Pastry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== SECTION: HERO ========== -->
+  <header class="hero">
+    <nav class="hero-nav" aria-label="Navigation principale">
+      <button type="button" class="hero-nav-toggle" id="hero-nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="hero-nav-menu">
+        <span class="hero-nav-toggle-bar"></span>
+        <span class="hero-nav-toggle-bar"></span>
+        <span class="hero-nav-toggle-bar"></span>
+      </button>
+      <ul class="hero-nav-menu" id="hero-nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#the-space">The Space</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="images/logo.png" alt="The Roost" class="hero-logo">
+    <h1>Your next favourite spot.</h1>
+    <p class="hero-subtitle">A place where time slows down and every cup feels like home</p>
+    <div class="cta-group">
+      <a href="#menu" class="cta">See our menu</a>
+      <a href="#contact" class="cta">We're open!</a>
+    </div>
+  </header>
+
+  <!-- ========== SECTION: OUR STORY ========== -->
+  <section id="about" class="about">
+    <div class="about-inner">
+      <div class="about-content">
+        <h2>Our Story</h2>
+        <p>
+          After years behind other people's counters, James decided it was time to build something of his own. Not just a coffee shop — a place. Somewhere you'd actually want to stay. Opened in 2023, our doors are built on one simple belief : great coffee should feel like a warm welcome, every single time.
+        </p>
+        <p class="about-roost-wrap">
+          <img src="images/roost.png" alt="The Roost" class="about-roost" loading="lazy">
+        </p>
+        <p>Stop by for a quiet moment or a catch-up with friends.</p>
+      </div>
+      <div class="about-image">
+        <img src="images/owner.png" alt="The Roost founders" loading="lazy">
+      </div>
+    </div>
+    <div class="about-stats">
+      <div class="about-stat"><span class="about-stat-label">Est. 2023</span></div>
+      <div class="about-stat"><span class="about-stat-label">Single origin beans</span></div>
+      <div class="about-stat"><span class="about-stat-label">Roasted locally</span></div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION: MENU ========== -->
+  <section id="menu" class="menu-preview">
+    <h2>On the Menu</h2>
+    <p>Something for every taste — from signature drinks to fresh bites.</p>
+
+    <div class="menu-category">
+      <h3 class="menu-category-title">Drinks</h3>
+      <div class="menu-grid">
+        <article class="menu-card">
+          <div class="menu-card-image">
+            <img src="images/signature-latte.png" alt="Signature Latte" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <strong>Signature Latte</strong>
+            <p>Our house blend espresso with velvety steamed milk and a touch of vanilla. Topped with latte art — as pretty as it is smooth.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-image">
+            <img src="images/cold-brew.png" alt="Cold Brew" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <strong>Iced Latte</strong>
+            <p>Our favorite espresso with cold milk and a touch of your favorite flavor. Served over ice — the perfect cool sip.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-image">
+            <img src="images/matcha-latte.png" alt="Matcha Latte" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <strong>Matcha Latte</strong>
+            <p>Ceremonial-grade matcha whisked with oat or dairy milk. Earthy, creamy and gently caffeinated.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-image">
+            <img src="images/hot-chocolate.png" alt="Hot Chocolate" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <strong>Hot Chocolate</strong>
+            <p>Rich dark chocolate melted into steamed milk, finished with a cloud of whipped cream. Pure comfort in a cup.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h3 class="menu-category-title">Bites</h3>
+      <div class="menu-grid menu-grid--three">
+        <article class="menu-card">
+          <div class="menu-card-image">
+            <img src="images/butter-croissant.png" alt="Butter Croissant" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <strong>Butter Croissant</strong>
+            <p>Golden, flaky and baked fresh each morning. Pure butter, no shortcuts — the classic that never gets old.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-image">
+            <img src="images/avocado-toast.png" alt="Avocado Toast" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <strong>Avocado Toast</strong>
+            <p>Ripe avocado on sourdough with lemon, chili flakes and optional poached eggs. Simple, fresh and satisfying.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-image">
+            <img src="images/seasonal-pastry.png" alt="Seasonal Pastry of the Day" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <strong>Seasonal Pastry of the Day</strong>
+            <p>Whatever our baker has dreamed up today — fruit danish, almond croissant, cinnamon roll or something new. Ask at the counter.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION: THE SPACE ========== -->
+  <section id="the-space" class="the-space">
+    <div class="the-space-inner">
+      <div class="the-space-content">
+        <h2>The Space</h2>
+        <p class="the-space-lead">More than a coffee shop — a place you’ll want to stay.</p>
+        <p>
+          Natural light, warm wood, and room to breathe. Whether you’re here to focus, catch up with a friend, or just watch the street go by, the layout and the vibe are built for that. No rush, no noise battle: we kept the space small on purpose so it stays human.
+        </p>
+        <p>
+          That’s why we think it’s the best spot in town. Great coffee and pastries matter, but so does feeling welcome the moment you walk in. You’ll find power outlets where you need them, a mix of tables and comfy corners, and a team that’s happy to see you — whether it’s your first visit or your hundredth.
+        </p>
+        <div class="space-features" aria-label="Aménités">
+          <span class="space-feature"><span class="space-feature-icon" aria-hidden="true">☕</span> Specialty coffee</span>
+          <span class="space-feature"><span class="space-feature-icon" aria-hidden="true">⚡</span> Free high-speed wifi</span>
+          <span class="space-feature"><span class="space-feature-icon" aria-hidden="true">🔌</span> Power outlets at every seat</span>
+        </div>
+      </div>
+      <div class="space-carousel" id="space-carousel" role="region" aria-label="Galerie de l'espace">
+        <div class="space-carousel-track">
+          <div class="space-carousel-slide is-active" data-index="0">
+            <img src="images/gallery/space-1.jpg" alt="Espace café — vue 1" loading="lazy">
+          </div>
+          <div class="space-carousel-slide" data-index="1">
+            <img src="images/gallery/space-2.jpg" alt="Espace café — vue 2" loading="lazy">
+          </div>
+          <div class="space-carousel-slide" data-index="2">
+            <img src="images/gallery/space-3.jpg" alt="Espace café — vue 3" loading="lazy">
+          </div>
+          <div class="space-carousel-slide" data-index="3">
+            <img src="images/gallery/space-4.jpg" alt="Espace café — vue 4" loading="lazy">
+          </div>
+          <div class="space-carousel-slide" data-index="4">
+            <img src="images/gallery/space-5.jpg" alt="Espace café — vue 5" loading="lazy">
+          </div>
+          <div class="space-carousel-slide" data-index="5">
+            <img src="images/gallery/space-6.jpg" alt="Espace café — vue 6" loading="lazy">
+          </div>
+        </div>
+        <div class="space-carousel-dots" id="space-carousel-dots" aria-label="Position dans le carrousel">
+          <button type="button" class="space-carousel-dot is-active" data-index="0" aria-label="Photo 1" aria-current="true"></button>
+          <button type="button" class="space-carousel-dot" data-index="1" aria-label="Photo 2"></button>
+          <button type="button" class="space-carousel-dot" data-index="2" aria-label="Photo 3"></button>
+          <button type="button" class="space-carousel-dot" data-index="3" aria-label="Photo 4"></button>
+          <button type="button" class="space-carousel-dot" data-index="4" aria-label="Photo 5"></button>
+          <button type="button" class="space-carousel-dot" data-index="5" aria-label="Photo 6"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION: CONTACT ========== -->
+  <section id="contact" class="contact">
+    <div class="contact-message-section">
+      <div class="contact-message-inner">
+        <div class="contact-opening-hours-wrap">
+          <h2 class="contact-opening-hours-title">Opening hours</h2>
+          <dl class="contact-opening-hours-list">
+            <div class="contact-opening-hours-row">
+              <dt>Monday</dt>
+              <dd>7am - 7pm</dd>
+            </div>
+            <div class="contact-opening-hours-row">
+              <dt>Tuesday</dt>
+              <dd>7am - 7pm</dd>
+            </div>
+            <div class="contact-opening-hours-row">
+              <dt>Wednesday</dt>
+              <dd>7am - 7pm</dd>
+            </div>
+            <div class="contact-opening-hours-row">
+              <dt>Thursday</dt>
+              <dd>7am - 7pm</dd>
+            </div>
+            <div class="contact-opening-hours-row">
+              <dt>Friday</dt>
+              <dd>7am - 7pm</dd>
+            </div>
+            <div class="contact-opening-hours-row">
+              <dt>Saturday</dt>
+              <dd>8am–6pm</dd>
+            </div>
+            <div class="contact-opening-hours-row">
+              <dt>Sunday</dt>
+              <dd>8am–6pm</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="contact-map-wrap">
+          <iframe class="contact-map" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.125%2C51.507%2C0.125%2C51.517&layer=mapnik&marker=51.512,-0.09" title="Carte — The Roost"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="contact-get-in-touch">
+      <div class="contact-get-in-touch-inner">
+        <div class="contact-info">
+          <span class="contact-label">Contact</span>
+          <h2>Get in Touch</h2>
+          <p>We'd love to hear from you. Whether you have a question about our coffee, want to book a table, or just say hello — drop us a line.</p>
+          <ul class="contact-details-list">
+            <li>
+              <span class="contact-detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <span>42 Ember Street, Halcyon</span>
+            </li>
+            <li>
+              <span class="contact-detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <span><a href="tel:+1234567890">+1 (234) 567 890</a></span>
+            </li>
+            <li>
+              <span class="contact-detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              <a href="mailto:hello@theroost.example">hello@theroost.example</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-get-in-touch-image">
+          <img src="images/contact.png" alt="The Roost — notre espace" loading="lazy">
+        </div>
+      </div>
+    </div>
+    <div class="contact-faq">
+      <div class="contact-faq-inner">
+        <div class="contact-faq-intro">
+          <span class="contact-label">FAQs</span>
+          <h2>Frequently Asked Questions</h2>
+          <p>Quick answers to the things we get asked most. Can't find what you're looking for? Just reach out.</p>
+        </div>
+        <div class="contact-faq-list">
+          <details class="contact-faq-item">
+            <summary class="contact-faq-question">How long has The Roost been open?</summary>
+            <p class="contact-faq-answer">We opened our doors in 2023. We're still new but already feel like part of the neighbourhood.</p>
+          </details>
+          <details class="contact-faq-item">
+            <summary class="contact-faq-question">Do you have wifi and power outlets?</summary>
+            <p class="contact-faq-answer">Yes. We offer free high-speed wifi and power outlets at every seat so you can work or relax comfortably.</p>
+          </details>
+          <details class="contact-faq-item">
+            <summary class="contact-faq-question">Can I book a table for a group?</summary>
+            <p class="contact-faq-answer">For larger groups we recommend giving us a heads-up. Send us a message or call and we'll do our best to accommodate you.</p>
+          </details>
+          <details class="contact-faq-item">
+            <summary class="contact-faq-question">Do you roast your own coffee?</summary>
+            <p class="contact-faq-answer">We work with local roasters who source single-origin beans and roast in small batches. We're proud to serve their coffee.</p>
+          </details>
+          <details class="contact-faq-item">
+            <summary class="contact-faq-question">Is the space wheelchair accessible?</summary>
+            <p class="contact-faq-answer">Yes. Our entrance and main seating area are accessible. If you have specific needs, get in touch and we'll make sure you're comfortable.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION: FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="images/logo-brun.png" alt="The Roost" class="footer-logo" loading="lazy">
+    </div>
+    <div class="footer-main">
+      <div class="footer-hours">
+        <p class="footer-hours-title">Opening hours</p>
+        <p>Mon–Fri 7am–7pm</p>
+        <p>Sat–Sun 8am–6pm</p>
+        <div class="footer-hours-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#">Home</a>
+        <a href="#about">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#the-space">The Space</a>
+      </nav>
+      <div class="footer-contact">
+        <p class="footer-contact-title">Contact</p>
+        <p>42 Ember Street, Halcyon</p>
+        <p><a href="tel:+1234567890">+1 (234) 567 890</a></p>
+        <p><a href="mailto:hello@theroost.example">hello@theroost.example</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">© 2024 The Roost Coffee. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#" id="back-to-top" class="back-to-top" aria-label="Retour en haut de la page">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
