@@ -30,6 +30,8 @@ A fully responsive landing page for a fictional coffee shop. Features smooth ani
 ### Mobile View
 <img width="417" height="904" alt="image" src="https://github.com/user-attachments/assets/c8438ffa-2017-4a00-b9e1-357dca61a771" />
 <img width="416" height="904" alt="image" src="https://github.com/user-attachments/assets/b86b28b5-b135-4ec5-9fab-2e74a0217987" />
+<img width="417" height="906" alt="image" src="https://github.com/user-attachments/assets/c363c409-1e37-4d0f-a44c-640f72446b7b" />
+
 
 
 ## 🎯 Purpose
