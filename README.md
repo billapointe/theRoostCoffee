@@ -1,4 +1,4 @@
-# The Roost CoffeeShop ☕
+# The Roost Coffee Shop ☕
 
 A landing page designed for a fictional café, built from the ground up — from brand identity to user experience.
 
